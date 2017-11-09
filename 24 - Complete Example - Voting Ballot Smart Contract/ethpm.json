@@ -1,0 +1,16 @@
+{
+  "package_name": "tosh",
+  "version": "0.0.1",
+  "description": "ICO & Token",
+  "authors": [
+    "Toshendra Sharma <me@toshendra.com>"
+  ],
+  "keywords": [
+    "ethereum",
+    "ICO"
+  ],
+  "devDependencies": {
+    "zeppelin": "^1.0.6"
+  },
+  "license": "MIT"
+}

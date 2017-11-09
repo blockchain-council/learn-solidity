@@ -1,0 +1,39 @@
+{
+  "name": "Blockhain-Council-Development-Codes",
+  "version": "0.0.1",
+  "description": "Blockhain-Council-Development-Codes",
+  "main": "truffle.js",
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart",
+    "contracts",
+    "security",
+    "zeppelin"
+  ],
+  "author": "Toshendra sharma <me@toshendra.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toshendra/ethereum-erc20-token/issues"
+  },
+  "homepage": "https://github.com/toshendra/ethereum-erc20-token",
+  "dependencies": {
+    "truffle-hdwallet-provider": "0.0.3"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-register": "^6.26.0",
+    "big-number": "^0.4.0",
+    "coveralls": "^2.13.1",
+    "ethereumjs-testrpc": "^3.0.2",
+    "mocha-lcov-reporter": "^1.3.0",
+    "solidity-coverage": "^0.1.0",
+    "truffle": "^3.2.2"
+  }
+}
