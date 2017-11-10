@@ -71,7 +71,7 @@ $ cd learn-solidity
 $ npm install
 ```
 
-Then run the below command to start compling the contract:
+* Then run the below command to start compling the contract:
 
 ```
 $ truffle compile
