@@ -142,8 +142,7 @@ contract CrowdFunder {
                 return false;
             }
             else{
-                totalRaised -= amountToRefund;
-                currentBalance = totalRaised;
+                currentBalance -= amountToRefund;
             }
 
             return true;
