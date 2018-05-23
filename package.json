@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/blockchain-council/learn-solidity/issues"
   },
-  "homepage": "https://github.com/blockchain-council/learn-solidity#readme"
+  "homepage": "https://github.com/blockchain-council/learn-solidity#readme",
+  "dependencies": {
+    "testrpc": "0.0.1"
+  }
 }
