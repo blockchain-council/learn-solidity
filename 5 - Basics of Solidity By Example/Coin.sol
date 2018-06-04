@@ -6,7 +6,7 @@ contract Coin {
     * @author Toshendra Sharma
     * @notice Example for the Solidity Course
     * @dev This is only for demo the simple Coin example
-    * 
+    *
     */
 
     address public minter;
@@ -15,7 +15,7 @@ contract Coin {
     event LogCoinsMinted(address deliveredTo, uint amount);
     event LogCoinsSent(address sentTo, uint amount);
 
-    
+
     mapping (address => uint) balances;
     function Coin(uint initialCoins) public {
         minter = msg.sender;
@@ -38,7 +38,7 @@ contract Coin {
         if (balances[msg.sender] < amount) return;
         balances[msg.sender] -= amount;
         balances[receiver] += amount;
-        LogCoinsSent(receiver, amount);
+        emit LogCoinsSent(receiver, amount);
     }
 
     function queryBalance(address addr) constant public returns (uint balance) {

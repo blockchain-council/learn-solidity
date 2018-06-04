@@ -1,0 +1,22 @@
+{
+  "name": "learn-solidity",
+  "version": "1.0.0",
+  "description": "This code base is a part of the code templates of different modules in the e-learning course [Learn Solidity: Programing Language for Ethereum Smart Contracts](https://www.toshacademy.com/courses/best-solidity-programing-language-tutorial-for-ethereum-smart-contracts?utm_source=github&utm_medium=voting-ballot-repo) hosted at [Tosh Academy](https://www.toshacademy.com/collections/blockchain?utm_source=github&utm_medium=voting-ballot-repo).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockchain-council/learn-solidity.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blockchain-council/learn-solidity/issues"
+  },
+  "homepage": "https://github.com/blockchain-council/learn-solidity#readme",
+  "dependencies": {
+    "testrpc": "0.0.1"
+  }
+}
