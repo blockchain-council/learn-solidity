@@ -33,7 +33,7 @@ Truffle is a development environment, testing framework and asset pipeline for E
 >External script runner that executes scripts within a Truffle environment.
 
 
-* Rpc client preferrably [testrpc](https://www.npmjs.com/package/ethereumjs-testrpc/tutorial)
+* Rpc client preferrably [testrpc](https://www.npmjs.com/package/ethereumjs-testrpc)
 
 ### Setting up the environment
 
